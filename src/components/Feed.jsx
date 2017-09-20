@@ -123,8 +123,8 @@ renderPost=()=>{
   render(){
     return (
       <div>
-        <button style={{width:'500px', height:'50px' }} onClick={this.handleToggle}>last edited</button>
-        <button  style={{width:'500px', height:'50px' }} onClick={this.handleToggle}>Likes</button>
+        <button style={{width:'500px', height:'50px' }} onClick={this.handleToggle}>Like/Time</button>
+
           <br/>
         <p>sorting by {this.state.sortBy}</p>
         <hr/>
